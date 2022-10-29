@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moneyy"
+    android:orientation="vertical"
+    tools:context=".kullGiris">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:hint="Varlık fonu görmek için butona basınız"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/varlikgor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:text="Varlık Gör"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:hint="Ad Soyad görmek için butona basınız"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/adsoyadgor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:text="Ad Soyad Gör"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:hint="Borç görmek için butona basınız"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/borcgor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:text="Borç Gör"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/odemeYap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="90dp"
+        android:text="Ödeme Yap"
+        android:textSize="20dp" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/geri3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:text="Çıkış yap" />
+</LinearLayout>

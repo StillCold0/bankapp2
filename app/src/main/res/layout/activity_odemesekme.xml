@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/moneyy"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".odemesekme">
+
+    <TextView
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Varlık fonu görmek için butona basınız" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:id="@+id/varlikgor"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Varlık Gör" />
+
+
+    <TextView
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Borç görmek için butona basınız" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:textSize="20dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/borcgor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borç Gör" />
+
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20dp"
+        android:id="@+id/odemeYap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ödeme Yap" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/geri4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:text="Geri dön" />
+</LinearLayout>

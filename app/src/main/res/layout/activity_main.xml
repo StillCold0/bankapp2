@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lütfen Giriş Yapınız"
+        android:gravity="center"
+        android:textColor="#59D6F6"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/kullAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="textPersonName"
+        android:hint="Kullanıcı Adı" />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Şifre" />
+
+
+    <Button
+        android:id="@+id/giris"
+        android:background="@drawable/buttonarkaplan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:shadowColor="#4E7078"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:text="Kullanıcı Giriş" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/pgiris"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personel Giriş" />
+
+    <Button
+        android:background="@drawable/buttonarkaplan"
+        android:id="@+id/mgiris"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Müdür Giriş" />
+</LinearLayout>
